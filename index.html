@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Imię Nazwisko | Autorka</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #faf9f6;
+        color: white;
+        line-height: 1.6;
+    }
+
+    header {
+        padding: 30px;
+        text-align: center;
+        border-bottom: 1px solid #333;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    nav a:hover {
+        color: #999;
+    }
+
+    section {
+        max-width: 1000px;
+        margin: auto;
+        padding: 80px 20px;
+    }
+
+    h2 {
+        margin-bottom: 30px;
+        font-weight: 300;
+        letter-spacing: 3px;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+    }
+
+    .card {
+        border: 1px solid #333;
+        padding: 15px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .button {
+        display: inline-block;
+        margin-top: 15px;
+        padding: 10px 20px;
+        background: white;
+        color: black;
+        text-decoration: none;
+    }
+
+    .button:hover {
+        opacity: 0.8;
+    }
+
+    footer {
+        text-align: center;
+        padding: 40px;
+        border-top: 1px solid #333;
+        color: #888;
+    }
+
+    .blog-post {
+        margin-bottom: 50px;
+    }
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Katarzyna Rychlicka</h1>
+    <p>Autorka • Ikony • Obrazy</p>
+</header>
+
+<nav>
+    <a href="#home">HOME</a>
+    <a href="#ikony">IKONY</a>
+    <a href="#obrazy">OBRAZY</a>
+    <a href="#blog">BLOG</a>
+    <a href="#kontakt">KONTAKT</a>
+</nav>
+
+<section id="home">
+    <h2>HOME</h2>
+    <p>
+        W mojej domowej pracowni na poddaszu tworzę ikony i obrazy inspirowane duchowością, naturą i pięknem codzienności.
+    </p>
+</section>
+
+<section id="ikony">
+    <h2>IKONY</h2>
+
+    <div class="gallery">
+
+        <div class="card">
+            <img src="ikona1.jpg" alt="Ikona">
+            <h3>Tytuł ikony</h3>
+            <p>Technika, wymiary, rok powstania.</p>
+            </a>
+        </div>
+
+        <div class="card">
+            <img src="ikona2.jpg" alt="Ikona">
+            <h3>Tytuł ikony</h3>
+            <p>Technika, wymiary, rok powstania.</p>
+            <p><strong>1500 zł</strong></p>
+            <a href="mailto:krychlicka.pl@gmail.com" class="button">
+                Zapytaj o zakup
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="obrazy">
+    <h2>OBRAZY</h2>
+
+    <div class="gallery">
+
+        <div class="card">
+            <img src="obraz1.jpg" alt="Obraz">
+            <h3>Tytuł obrazu</h3>
+            <p>Technika, wymiary, rok powstania.</p>
+            </a>
+        </div>
+
+    </div>
+</section>
+
+<section id="blog">
+    <h2>BLOG</h2>
+
+    <div class="blog-post">
+        <h3>Twóczość</h3>
+        <p>
+            Proces twórczy, inspiracje.
+        </p>
+    </div>
+
+    <div class="blog-post">
+        <h3>Kolejny wpis</h3>
+        <p>
+            Refleksje związane z tworzeniem.
+        </p>
+    </div>
+
+</section>
+
+<section id="kontakt">
+    <h2>KONTAKT</h2>
+
+    <p>Email: krychlicka.pl@gmail..com</p>
+    <p>Instagram: @twojprofil</p>
+
+</section>
+
+<footer>
+    © 2026 Katarzyna Rychlicka
+</footer>
+
+</body>
+</html>
